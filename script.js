@@ -55,18 +55,18 @@ BUTTON_SEARCH.onclick = () => {
     
     console.log(SEARCH);
     if (SEARCH == 'имя') {
-        NewName.style.backgroundColor = "red";
+        NewName.style.backgroundColor = "yellow";
     } 
     if (SEARCH === 'фамилия') {
-        NewSurname.style.backgroundColor = "red";
+        NewSurname.style.backgroundColor = "yellow";
     } 
     if (SEARCH === 'e-mail') {
-        NewEmail.style.backgroundColor = "red";
+        NewEmail.style.backgroundColor = "yellow";
     } 
     if (SEARCH === 'login') {
-        NewLogin.style.backgroundColor = "red";
+        NewLogin.style.backgroundColor = "yellow";
     } 
     if (SEARCH === 'password') {
-        NewPassword.style.backgroundColor = "red";
+        NewPassword.style.backgroundColor = "yellow";
     } 
 }
